@@ -1,0 +1,101 @@
+.bg-sec {
+  background-color: #FFC438 !important;
+}
+
+.text-sec {
+  color: #FFC438;
+}
+
+.btn-sec {
+  color:#fff;
+  background-color:#FFC438;
+  border-color:#FFC438
+}
+  
+.btn-sec:hover {
+  color:#fff;
+  background-color:rgb(218, 214, 113);
+  border-color:#FFC438
+}
+
+.btn-sec.focus,
+.btn-sec:focus {
+  color:#fff;
+  background-color:rgb(218, 214, 113);
+  border-color:#FFC438;
+  box-shadow:0 0 0 .2rem #aaa869
+}
+
+.btn-sec.disabled,
+.btn-sec:disabled {
+  color:#fff;
+  background-color:#ffbd22;
+  border-color:#c7c57f
+}
+
+.btn-sec:not(:disabled):not(.disabled).active,
+.btn-sec:not(:disabled):not(.disabled):active,
+.show>.btn-sec.dropdown-toggle {
+  color:rgba(0,0,0,.1);
+  background-color:#FFC438;
+  border-color:#c7c57f
+}
+
+.btn-sec:not(:disabled):not(.disabled).active:focus,
+.btn-sec:not(:disabled):not(.disabled):active:focus,
+.show>.btn-sec.dropdown-toggle:focus {
+  box-shadow:0 0 0 .2rem #aaa869
+}
+
+.btn-outline-sec {
+  color:#FFC438;
+  border-color:#FFC438
+}
+  
+.btn-outline-sec:hover {
+  color:#fff;
+  background-color:#FFC438;
+  border-color:#FFC438
+}
+
+.btn-outline-sec.focus,
+.btn-outline-sec:focus {
+  box-shadow:0 0 0 .2rem #aaa869
+}
+  
+.btn-outline-sec.disabled,
+.btn-outline-sec:disabled {
+  color:#FFC438;background-color:transparent
+}
+
+.btn-outline-sec:not(:disabled):not(.disabled).active,
+.btn-outline-sec:not(:disabled):not(.disabled):active,
+.show>.btn-outline-sec.dropdown-toggle {
+  color:#fff;background-color:#FFC438;border-color:#FFC438
+}
+
+.btn-outline-sec:not(:disabled):not(.disabled).active:focus,
+.btn-outline-sec:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-sec.dropdown-toggle:focus {
+  box-shadow:0 0 0 .2rem #aaa869
+}
+
+.border-left-sec {
+  border-left:.25rem solid #FFC438 !important
+}
+
+.border-right-sec {
+  border-left:.25rem solid #FFC438 !important
+}
+
+.border-buttom-sec {
+  border-left:.25rem solid #FFC438 !important
+}
+
+.border-top-sec {
+  border-left:.25rem solid #FFC438 !important
+}
+
+.border-sec{
+  border-color:#FFC438 !important
+}

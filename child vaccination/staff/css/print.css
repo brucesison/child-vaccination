@@ -1,0 +1,46 @@
+@media print{
+  p.bodyText {
+    font-family: sans-serif, times, serif;
+  }
+
+  #printText {
+    display: block;
+    overflow-y: visible;
+    height: 200px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    font-family: 'sans-serif', sans-serif;
+    font-size: 8pt;
+  }
+
+  #btnprint {
+    display: none;
+  }
+
+  .nonprint {
+    display: none;
+  }
+
+  table {
+    table-layout: fixed;
+  }
+
+  @page {
+    size: portrait;
+  }
+}
+
+@media screen {
+  p.bodyText {
+    font-family: sans-serif, arial, sans-serif;
+  }
+
+  @media screen, print {
+    p.bodyText {
+      font-size: 8pt;
+    }
+  }
+}

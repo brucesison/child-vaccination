@@ -1,0 +1,21 @@
+.logo-signin {
+  height: 80px;
+  width: 80px;
+}
+
+.logo-dashboard {
+  height: 50px;
+  width: 50px;
+}
+
+.child-profile {
+  width: 40px;
+  height: 40px;
+}
+
+/* Custom styles for the carousel control buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(83, 81, 81); /* Change this to your desired color */
+    background-size: 100%, 100%;
+}

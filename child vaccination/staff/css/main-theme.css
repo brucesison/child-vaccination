@@ -1,0 +1,280 @@
+.bg-main {
+  background-color: #009c95 !important;
+}
+
+.text-main {
+  color: #009c95 !important;
+}
+
+.btn-main {
+  color: #fff;
+  background-color: #009c95;
+  border-color: #009c95;
+}
+
+.btn-main:hover {
+  color: #fff;
+  background-color: #04c9bf;
+  border-color: #04c9bf;
+}
+
+.btn-main.focus,
+.btn-main:focus {
+  color: #fff;
+  background-color: #04c9bf;
+  border-color: #04c9bf;
+  box-shadow: 0 0 0 0.2rem #04c9bf;
+}
+
+.btn-main.disabled,
+.btn-main:disabled {
+  color: #fff;
+  background-color: #005752;
+  border-color: #028d86;
+}
+
+.btn-main:not(:disabled):not(.disabled).active,
+.btn-main:not(:disabled):not(.disabled):active,
+.show > .btn-main.dropdown-toggle {
+  color: #fff;
+  background-color: #04c9bf;
+  border-color: #04c9bf;
+}
+
+.btn-main:not(:disabled):not(.disabled).active:focus,
+.btn-main:not(:disabled):not(.disabled):active:focus,
+.show > .btn-main.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #04c9bf;
+}
+
+.btn-outline-main {
+  color: #009c95;
+  border-color: #009c95;
+}
+
+.btn-outline-main:hover {
+  color: #fff;
+  background-color: #009c95;
+  border-color: #009c95;
+}
+
+.btn-outline-main.focus,
+.btn-outline-main:focus {
+  box-shadow: 0 0 0 0.2rem #009c95;
+}
+
+.btn-outline-main.disabled,
+.btn-outline-main:disabled {
+  color: #009c95;
+  background-color: transparent;
+}
+
+.btn-outline-main:not(:disabled):not(.disabled).active,
+.btn-outline-main:not(:disabled):not(.disabled):active,
+.show > .btn-outline-main.dropdown-toggle {
+  color: #fff;
+  background-color: #009c95;
+  border-color: #009c95;
+}
+
+.btn-outline-main:not(:disabled):not(.disabled).active:focus,
+.btn-outline-main:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-main.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #2e8883e8;
+}
+
+.border-left-main {
+  border-left: 0.25rem solid #009c95 !important;
+}
+
+.border-right-main {
+  border-left: 0.25rem solid #009c95 !important;
+}
+
+.border-buttom-main {
+  border-left: 0.25rem solid #009c95 !important;
+}
+
+.border-top-main {
+  border-left: 0.25rem solid #009c95 !important;
+}
+
+.border-main {
+  border-color: #009c95 !important;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #009c95 !important;
+  border-color: #009c95 !important;
+}
+
+.search-input {
+  border-top-left-radius: 0.35rem !important;
+  border-bottom-left-radius: 0.35rem !important;
+}
+
+.clear-search {
+  border-top-right-radius: 0.33rem !important;
+  border-bottom-right-radius: 0.33rem !important;
+}
+
+.form-select {
+  background-size: 20px auto;
+}
+
+.rotate-n-20 {
+  transform: rotate(-10deg);
+}
+
+.dropdown-item-delete {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #e74a3b;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-item-delete:focus,
+.dropdown-item-delete:hover {
+  color: #e74a3b;
+  text-decoration: none;
+  background-color: #eaecf4;
+}
+
+.dropdown-item-delete.active,
+.dropdown-item-delete:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #009c95;
+}
+
+.change-photo,
+.parent-pic {
+  cursor: pointer;
+}
+
+.time {
+  margin-top: 20px;
+}
+
+.time h3 {
+  margin-bottom: 10px;
+}
+
+.time-column {
+  display: inline-block;
+  text-align: left;
+  margin: 0 20px;
+}
+
+.time-column h4 {
+  margin-bottom: 10px;
+}
+
+.btn-with-sparkle {
+  position: relative;
+}
+
+.btn-with-sparkle .sparkle1 {
+  position: absolute;
+  top: -10px; /* Adjust as needed */
+  right: -10px; /* Adjust as needed */
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+  pointer-events: none; /* Allow clicking through the sparkle */
+}
+
+.btn-with-sparkle .sparkle2 {
+  position: absolute;
+  bottom: -10px; /* Adjust as needed */
+  left: -10px; /* Adjust as needed */
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+  pointer-events: none; /* Allow clicking through the sparkle */
+}
+
+.btn-with-success {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-with-success .success {
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+  pointer-events: none; /* Allow clicking through the sparkle */
+}
+
+/* doctor login */
+.container-relative {
+  position: relative;
+}
+
+.teddy-top-left {
+  position: absolute;
+  top: -70px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100px;
+  width: 100px;
+}
+
+.login_body {
+  position: relative;
+  height: 100vh; /* Ensure the body height is 100% of the viewport height */
+  margin: 0; /* Remove any default margin */
+  overflow: hidden; /* Prevent scrollbars from appearing */
+}
+
+.login_body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/bg-login.jpg"); /* Update with the path to your image */
+  background-size: cover; /* Make the background cover the entire page */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  filter: blur(5px); /* Apply blur effect */
+  z-index: -1; /* Place it behind other elements */
+}
+
+.forgot_pass,
+.register {
+  background-color: #e6ecf5;
+}
+
+.input-option {
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .topbar-name {
+    font-size: 8px !important;
+  }
+
+  .current-date {
+    display: none !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1002px) {
+  #view-app-calendar {
+    display: none !important;
+  }
+}
